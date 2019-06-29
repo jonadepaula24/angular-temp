@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bwm-cli';
+
+  componentTitle = "I ama a variable from the ts file";
+
+  clickHandler() {
+    alert("I am clicked!");
+  }
 }
